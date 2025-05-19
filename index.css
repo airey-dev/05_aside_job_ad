@@ -1,6 +1,7 @@
 body{
     margin: 0;
     color: #333;
+    font-family: 'Roboto';
 }
 
 section, .ad-container{
@@ -33,6 +34,25 @@ ul{
     line-height: 22px;
 }
 
+/* 
+Challenge: 
+1. Look through the html and the new
+compound selectors in the CSS below and 
+figure out what colour the "key 
+requirements" list will be.
+
+⚠️ DO NOT look at the mini browser
+until you have made your guess!
+*/
+
+section .ad-container #req-list ul li {
+    color: green; /*113*/
+}
+
+body section .ad-container div .general-list li{
+    color: red; /*24*/
+}
+
 button{
     padding: 10px 19px;
     color: midnightblue;
@@ -43,5 +63,23 @@ button{
 }
 
 a{
-    margin: 10px
+    margin: 10px;
 }
+
+.ad-container a{
+    color: limegreen;
+    font-size: 18px;
+}
+
+.links-container a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    color: fuchsia;
+}
+
+
+
